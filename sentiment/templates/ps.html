@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstreap-theme.css">
+
+    <script src="./jquery.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+    <div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                全部评论
+                <a href="/all">
+                    <button>查看全部评论</button>
+                </a>
+            </div>
+            <div class="panel-body">
+                好评：{{all_hp}} <br>  差评：{{all_cp}}
+            </div>
+        </div>
+        <br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                价格评论
+                <a href="/price">
+                    <button>查看评论</button>
+                </a>
+            </div>
+            <div class="panel-body">
+                好评：{{price_hp}} <br>  差评：{{price_cp}}
+            </div>
+        </div>
+        <br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                环境评论
+                <a href="/env">
+                    <button>查看评论</button>
+                </a>
+            </div>
+            <div class="panel-body">
+                好评：{{env_hp}} <br>  差评：{{env_cp}}
+            </div>
+        </div>
+        <br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                味道评论
+                <a href="/taste">
+                    <button>查看评论</button>
+                </a>
+            </div>
+            <div class="panel-body">
+                好评：{{taste_hp}} <br>  差评：{{taste_cp}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
